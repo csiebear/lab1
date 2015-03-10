@@ -1,0 +1,104 @@
+Script started on 2015年03月10日 (週二) 17時28分38秒
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config
+usage: git config [options]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 adds a new variable: name value
+    --unset               removes a variable: name [value-regex]
+    --unset-all           removes all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            opens an editor
+    --get-color <slot>    find the color configured: [default]
+    --get-colorbool <slot>
+                          find the color setting: [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config --global [K]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config --global ""c"s"i"e"b"e"a"r"[1@ [1P[C[C "csiebear"[C "csiebear"u  "csiebear" [A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs  "csiebear""[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config --global user.name  "cssiebear"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cename  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmname  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caname
+ "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ciname  "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clname[C "csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Came [C[1P"csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cme  [1P"csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce 
+[1P"csiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  "c[1Psiebear"[A]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[1Psiebear"[1Piebear"[1Pebear"[1Pbear"[1Pear"[1Par"[1Pr"[1P"c"h"i"n"g"9"3"0"1"1"@"g"m"a"i"l"."c"o"m"
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ whoami;pwd
+F74004101
+/home/F74004101
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config -l
+user.name=csiebear
+user.email=ching93011@gmail.com
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git clone h[Khttps://github.conm[K[Km/csie bear/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ [K]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git clone https://github.com/csiebear/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K[3Pwhoami;pwdgit config --global user.email  "ching93011@gmail.com"[13Pname  "csiebear"[K[K[K[K[K[K[K[K[K[K[Kscript lab1.script
+Script started, file is lab1.script
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ whoamio[K;pwd
+F74004101
+/home/F74004101
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config -l
+user.name=csiebear
+user.email=ching93011@gmail.com
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git clone https://github.com/csiebear/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ exit
+Script done, file is lab1.script
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ cat lab1.scro[Kipt
+Script started on 2015年03月10日 (週二) 17時34分12秒
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ whoamio[K;pwd
+F74004101
+/home/F74004101
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config -l
+user.name=csiebear
+user.email=ching93011@gmail.com
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git clone https://github.com/csiebear/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ exit
+
+Script done on 2015年03月10日 (週二) 17時35分19秒
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ mv lab1.script lab1
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ ls
+[0m[01;34mlab1[0m
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ cd lab1
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ ls
+lab1.script
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ cd
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git commit
+fatal: Not a git repository (or any parent up to mount parent )
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ cd
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ cdgit commit
+fatal: Not a git repository (or any parent up to mount parent )
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ cd lab1
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ cd lab1git commit
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	lab1.script
+nothing added to commit but untracked files present (use "git add" to track)
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ git push csiebeqaa[K[K[Kart[K
+fatal: 'csiebear' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+]0;F74004101@2015cpp: ~/lab1F7
