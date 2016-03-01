@@ -1,29 +1,16 @@
-命令稿啟動於 2016年03月 1日 下午 04:45:35
-]0;~
-[32mMMLab@MMLab-P45V [33m~[0m
-$ git config -l[C[Cscript lab1.script[C[C[5Pgit config -l-global user.email "ching93011@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl[K-global user.email "ching93011@gmail.com"[10Pname "ShuoHsuanLi"[C[C[C[C[C[C[C[C[C[C[C[C[C[9P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pfind /usr -name iostream[C[Cgit clone https://github.com/csiebear/lab1.git[C[C[C[C[C[C[Config -l[K[C[C[3Pwhoami;pwd[C[Cfind /usr -name iostream[C[C[14Pwhoami;pwd
-MMLab
-/home/MMLab
-]0;~
-[32mMMLab@MMLab-P45V [33m~[0m
-$ whoami;pwd[C[Cgit config -l[C[Cscript lab1.script[C[C[5Pgit config -l
+Script started on 2016年03月01日 (週二) 23時45分40秒
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ whoami;pwd
+F74004101
+/home/F74004101
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git config -l
 user.name=ShuoHsuanLi
 user.email=ching93011@gmail.com
-]0;~
-[32mMMLab@MMLab-P45V [33m~[0m
-$ git config -l[C[C[3Pwhoami;pwd[C[Cgit config -l[C[Cscript lab1.script[C[C[5Pgit config -l-global user.email "ching93011@gmail.com"[10Pname "ShuoHsuanLi"email "ching93011@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl[K[C[Cscript lab1.script[C[C[5Pgit config -l[C[C[3Pwhoami;pwd[C[Cgit config -l[C[C[Kgit config -l[C[C[3Pwhoami;pwd[C[Cgit config -l[C[Cscript lab1.script[C[C[5Pgit config -l-global user.email "ching93011@gmail.com"[10Pname "ShuoHsuanLi"[C[C[C[C[C[C[C[C[C[C[C[C[C[9P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pfind /usr -name iostream[C[Cgit clone https://github.com/csiebear/lab1.git[C[C[C[C[C[C[Config -l[Klone https://github.com/csiebear/lab1.git
-fatal: destination path 'lab1' already exists and is not an empty directory.
-]0;~
-[32mMMLab@MMLab-P45V [33m~[0m
-$ git clone https://github.com/csiebear/lab1.git
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ git clone h[Khttps://github.com/csiebear/lab1.git
 Cloning into 'lab1'...
-remote: Counting objects: 3, done.[K
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3[K
-Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
-Checking connectivity... done.
-]0;~
-[32mMMLab@MMLab-P45V [33m~[0m
-$ exit
+remote: Counting objects: 14, done.[K
+remote: Compressing objects:  10% (1/10)   [Kremote: Compressing objects:  20% (2/10)   [Kremote: Compressing objects:  30% (3/10)   [Kremote: Compressing objects:  40% (4/10)   [Kremote: Compressing objects:  50% (5/10)   [Kremote: Compressing objects:  60% (6/10)   [Kremote: Compressing objects:  70% (7/10)   [Kremote: Compressing objects:  80% (8/10)   [Kremote: Compressing objects:  90% (9/10)   [Kremote: Compressing objects: 100% (10/10)   [Kremote: Compressing objects: 100% (10/10), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 3[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+]0;F74004101@2015cpp: ~F74004101@2015cpp:~$ exit
 
-命令稿已於 2016年03月 1日 下午 04:47:12
- 完成
+Script done on 2016年03月01日 (週二) 23時46分46秒
