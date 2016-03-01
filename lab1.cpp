@@ -21,4 +21,5 @@ void algorithm(int number){
 		else number=number/2;
 	cout<<number<<" ";
 	}	
+	cout<<endl;
 }
