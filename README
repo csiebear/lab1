@@ -4,3 +4,4 @@ Lab1
 編譯方式：g++ -o lab1 lab1.cpp
 執行方式：./lab1
 執行過程：輸入一個數字，讀取後印出相關的數字串。
+執行結果：可參考questionB.script。
