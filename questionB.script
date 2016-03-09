@@ -1,9 +1,37 @@
-Script started on 2016年03月01日 (週二) 23時57分02秒
-]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ git clone https://github.com/csiebear/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Config -l[K[3Pwhoami;pwd[6Pexitwhoami;pwdgit config -llone https://github.com/csiebear/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg==[K[K++ -o lab1 lab1.cpp
+Script started on 2016年03月09日 (週三) 16時09分43秒
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ cat lab1.co[Kpp
+#include <iostream>
+
+using namespace std;
+
+void algorithm (int);
+
+int main(){
+	int n;
+	cout<<"input n "<<endl;
+	cin>>n;
+	algorithm(n);
+	
+	return 0;
+}
+
+void algorithm(int number){
+	cout<<number<<" ";
+	while(number!=1){
+	if((number%2)==1)
+		number=3*number+1;
+		else number=number/2;
+	cout<<number<<" ";
+	}	
+	cout<<endl;
+}
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ g++ -o lab1 lab1.cpp
+]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ ls
+[0m[01;32mlab1[0m  lab1.cpp  lab1.script  questionB.script  README
 ]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ ./lab1
 input n 
 22
 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 
 ]0;F74004101@2015cpp: ~/lab1F74004101@2015cpp:~/lab1$ exit
 
-Script done on 2016年03月01日 (週二) 23時57分42秒
+Script done on 2016年03月09日 (週三) 16時10分05秒
